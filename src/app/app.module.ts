@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 
 // Módilo personalizado
-import { PrimerNgModule } from "./primer-ng/primer-ng.module";
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
@@ -13,7 +12,7 @@ import { PrimerNgModule } from "./primer-ng/primer-ng.module";
   ],
   imports: [
     BrowserModule,
-    PrimerNgModule
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
