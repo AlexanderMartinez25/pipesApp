@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-//PrimeNg
-import { ButtonModule } from 'primeng/button';
-import { CardModule } from 'primeng/card';
+// Módilo personalizado
+import { PrimerNgModule } from "./primer-ng/primer-ng.module";
+
 
 @NgModule({
   declarations: [
@@ -13,8 +13,7 @@ import { CardModule } from 'primeng/card';
   ],
   imports: [
     BrowserModule,
-    ButtonModule,
-    CardModule
+    PrimerNgModule
   ],
   providers: [],
   bootstrap: [AppComponent]
