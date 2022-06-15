@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRouterModule } from './app-router.module';
 import { AppComponent } from './app.component';
 
 // Módilo personalizado
+import { AppRouterModule } from './app-router.module';
 import { SharedModule } from './shared/shared.module';
+import { VentasModule } from './ventas/ventas.module';
 
 
 @NgModule({
@@ -14,8 +15,9 @@ import { SharedModule } from './shared/shared.module';
   // solo va a funcionar en este módulo
   imports: [
     BrowserModule,
-    SharedModule,
-    AppRouterModule
+    AppRouterModule,
+    VentasModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
