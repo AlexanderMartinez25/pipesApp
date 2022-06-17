@@ -7,5 +7,5 @@ body {
 }
 
 .text-layout {
-  color: var(--text-color)
+  color: var(--text-color) !important
 }
