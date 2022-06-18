@@ -17,7 +17,7 @@ export class NoComunesComponent {
   }
 
   // I18nPlural
-  clientes: string[] = ['Maria', 'Jose', 'Juan']
+  clientes: string[] = ['Maria', 'Jose', 'Juan', 'Alexander', 'Fátima', 'Diana']
   clientesMapa = {
     '=0': 'no tenemos ningún cliente',
     '=1': 'tenemos un cliente',
@@ -30,7 +30,7 @@ export class NoComunesComponent {
   }
 
   borrarCliente() {
-    this.clientes.shift();
+    this.clientes.pop();
   }
 
 }
