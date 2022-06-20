@@ -6,9 +6,9 @@ import { NumerosComponent } from './ventas/pages/numeros/numeros.component';
 import { OrdenarComponent } from './ventas/pages/ordenar/ordenar.component';
 
 
-const routes:Routes= [
+const routes: Routes = [
   {
-    path:'',
+    path: '',
     component: BasicosComponent,
     pathMatch: 'full'
   },
@@ -21,7 +21,7 @@ const routes:Routes= [
     component: NoComunesComponent,
   },
   {
-    path: 'ordernar',
+    path: 'ordenar',
     component: OrdenarComponent,
   },
   {
