@@ -34,11 +34,28 @@ export class NoComunesComponent {
   }
 
   //KeyValue Pipe
-
   persona = {
     nombre: 'Fernando',
     edad: 35,
     direccion: 'Otawwa, Canada'
   }
+
+  // Jsonpipe
+
+  heroes = [
+    {
+      nombre: 'Superman',
+      value: true
+    },
+    {
+      nombre: 'Robin',
+      value: false
+    },
+    {
+      nombre: 'Acuaman',
+      value: false
+    }
+
+  ]
 
 }
